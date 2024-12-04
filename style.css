@@ -1,0 +1,331 @@
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('assets/fonts/PlusJakartaSans-VariableFont_wght.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PlusJakartaSans', sans-serif  !important;
+}
+
+body {
+    background-color: hsl(202, 86%, 94%);
+    font-family: 'PlusJakartaSans', sans-serif;
+    /* font-size: 11.5px; */
+}
+
+input{
+    font-family: 'PlusJakartaSans', sans-serif;
+}
+
+.inner-container {
+    width: 100% !important;
+    margin-top: 30px;
+    display: flex;
+    max-height: 520px;
+}
+
+.wrapper1 {
+    background-color: hsl(0, 0%, 100%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: hsla(201, 11%, 35%, 0.885);
+}
+
+.wrapper2 {
+    background-color: hsl(203, 41%, 72%);
+    margin-left: -30px !important;
+    background-color: hsl(202, 55%, 16%);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 15px;
+    display: none;
+}
+
+.wrapper22 {
+    background-color: hsl(203, 41%, 72%);
+    margin-left: -30px !important;
+    background-color: hsl(202, 55%, 16%);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 15px;
+}
+
+.wrapper2 h1,
+.wrapper22 h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+.wrapper2 p {
+    margin-top: 10px;
+    color: hsl(203, 41%, 72%);
+    line-height: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 300px;
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 13px;
+    box-sizing: border-box !important;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.container {
+    margin-top: 50px;
+    height: 500px;
+}
+
+.wrapper1,
+.wrapper2,
+.wrapper22 {
+    width: 370px;
+    padding: 20px;
+    box-shadow: 0px 0px 7px rgb(200, 200, 200);
+    min-height: 440px;
+}
+
+.wrapper22 p {
+    color: hsl(203, 41%, 72%);
+    text-align: center;
+}
+
+.wrapper22 h2 {
+    text-align: center;
+    padding-bottom: 13px;
+    padding-top: 5px;
+    word-spacing: 3px;
+    font-size: 22px;
+}
+
+.illustration {
+    width: 30px;
+    margin-top: 100px;
+    align-items: center;
+    margin-left: 85px;
+}
+
+.wrapper22 image {
+    width: 30px;
+}
+
+
+a {
+    color: hsla(201, 11%, 35%, 0.885);
+    margin-left: 20px;
+    width: fit-content;
+}
+
+.wrapper1 h1 {
+    color: #000 !important;
+}
+
+.wrapper1 h1,
+a {
+    display: inline;
+    margin-bottom: 10px;
+    padding-bottom: 12px;
+}
+
+.radio-container {
+    display: inline-block;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 300px;
+    box-sizing: border-box;
+    color: #000 !important;
+    font-weight: bold;
+    transition: border-color 0.3s;
+}
+
+.rad {
+    margin-left: 5px;
+    margin-right: 13px;
+    display: inline;
+    appearance: none;
+}
+
+button {
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    width: 65%;
+    background-color: hsl(61, 70%, 52%);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing: border-box !important;
+    outline: none;
+}
+
+.btn-text {
+    font-family: 'PlusJakartaSans', sans-serif;
+}
+
+.calculator {
+    position: absolute;
+    margin-top: 39.5px;
+    margin-left: 30px;
+}
+
+.results-container {
+    border-top: 4px solid hsl(61, 70%, 52%);
+    border-radius: 10px;
+    background-color: hsl(203, 69%, 9%);
+    color: hsl(203, 41%, 72%);
+    width: 100%;
+    display: block;
+    margin-top: 40px;
+    height: 200px;
+    padding-bottom: 30px;
+}
+
+.results-container span {
+    display: block;
+}
+
+.results-container span,
+.results-container label {
+    padding: 10px;
+}
+
+.results {
+    font-size: 50px;
+    border-bottom: 1px solid hsl(203, 41%, 72%);
+    color: hsl(61, 70%, 52%);
+    padding-left: 0px !important;
+    font-weight: 550;
+}
+
+.result-div {
+    padding-left: 12px;
+}
+
+.total-pay {
+    display: block;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.total {
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-weight: 550;
+}
+
+.inner-result {
+    padding: 16px;
+}
+
+.term-container {
+    width: 300px;
+    display: inline-flex;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wrapper1 label {
+    margin-top: 10px;
+}
+
+.wrapper1-group {
+    margin-top: 7px;
+    padding-top: 8px;
+}
+
+.wrapper11 {
+    margin-top: 20px !important;
+    padding-top: 17px !important;
+}
+
+.units2,
+.units3 {
+    position: absolute;
+    margin-top: 22px !important;
+    background-color: hsl(202, 86%, 94%);
+    padding: 7.8px 15px !important;
+    border-bottom-right-radius: 1px;
+    border-top-right-radius: 1px;
+    border: 1px solid transparent !important;
+    border-left: 1px solid transparent !important;
+    border-top: 1px solid transparent !important;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'PlusJakartaSans', sans-serif;
+    font-weight: bold;
+}
+
+.unit {
+    background-color: hsl(202, 86%, 94%);
+    padding: 9px 15px;
+    border: 1px solid gray;
+}
+
+.units2 {
+    margin-left: -1.5px;
+}
+
+.units3 {
+    margin-left: 31px;
+}
+
+.units1 {
+    position: absolute;
+    font-family: 'PlusJakartaSans', sans-serif !important;
+    font-weight: bold;
+    margin-top: 22px;
+    margin-left: -97.8px;
+    background-color: hsl(202, 86%, 94%);
+    border-top: none !important;
+    padding: 7.8px 15px;
+    border: 1px solid transparent !important;
+    border-right: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#amount {
+    padding-left: 45px;
+    padding-right: 0px !important;
+}
+
+#term,
+#rate {
+    padding-right: 30px;
+    width: 145px !important;
+}
+
+.term-rate2 {
+    margin-left: 10px;
+}
+
+.rad-circle {
+    width: 12px;
+    height: 12px;
+    border: 1px solid hsl(0, 3%, 13%);
+    border-radius: 500px;
+    margin-left: 0px;
+    display: inline-flex;
+    position: absolute;
+}
+
+.rad-text {
+    padding-left: 10px;
+}

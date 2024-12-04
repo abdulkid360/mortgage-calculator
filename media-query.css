@@ -1,0 +1,214 @@
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: hsl(202, 86%, 94%);
+    }
+
+    .inner-container {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    .inner-container {
+        display: block !important;
+        margin: auto;
+        width: max-content !important;
+        height: 100vh;
+    }
+
+    .wrapper {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        border-radius: 0px !important;
+        width: 150px !important;
+        box-shadow: none;
+        padding: 10px !important;
+        box-sizing: border-box;
+    }
+
+    .wrapper11 {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .wrapper1-group {
+        display: block !important;
+    }
+
+    .wrapper1 {
+        padding-right: 0px !important;
+    }
+
+    .term-rate2 {
+        margin-left: 0px;
+    }
+
+    #term,
+    #rate {
+        width: 300px !important;
+    }
+
+    /* .units2 {
+        margin-left: 151px !important;
+        border-right: none !important;
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        border-top-right-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+        border-left: none !important;
+    }
+
+    .units3 {
+        margin-left: 188.8px !important;
+        border-right: none !important;
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        border-top-right-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+        border-left: none !important;
+    } */
+
+    button {
+        width: 290px;
+        padding: 10 13px !important;
+        text-align: center;
+        font-weight: 700px;
+    }
+
+    .calculator {
+        margin-left: 40px;
+    }
+
+    .upper-container a {
+        display: block;
+        margin-left: 0px !important;
+        padding-top: 10px;
+    }
+
+    .wrapper p {
+        font-size: 10px;
+        font-weight: normal;
+    }
+
+    .results {
+        font-size: 30px;
+    }
+
+    .inner-wrapper2 {
+        padding: 15px 10px;
+    }
+
+    .illustration {
+        margin-left: 60px;
+    }
+
+    .inner-result label {
+        font-size: 14px;
+    }
+
+    .total {
+        font-size: 23px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    .inner-container {
+        display: block !important;
+        margin: auto;
+        height: 100vh;
+    }
+
+    .wrapper {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        border-radius: 0px !important;
+        width: 330px !important;
+        box-shadow: none;
+        padding: 10px !important;
+        box-sizing: border-box;
+    }
+
+    .wrapper11 {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .wrapper1-group {
+        display: block !important;
+    }
+
+    .wrapper1 {
+        padding-right: 0px !important;
+    }
+
+    .term-rate2 {
+        margin-left: 0px;
+    }
+
+    #term,
+    #rate {
+        width: 300px !important;
+    }
+
+    .units2 {
+        margin-left: 156px !important;
+        border-right: none !important;
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        border-top-right-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+        border-left: none !important;
+    }
+
+    .units3 {
+        margin-left: 187.8px !important;
+        border-right: none !important;
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        border-top-right-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+        border-left: none !important;
+    }
+
+    button {
+        width: 300px;
+        padding: 10 13px !important;
+        text-align: center;
+        font-weight: 700px;
+    }
+
+    .calculator {
+        margin-left: 40px;
+    }
+
+    .upper-container a {
+        display: block;
+        margin-left: 0px !important;
+        padding-top: 10px;
+    }
+
+    .wrapper p {
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .inner-wrapper2 {
+        padding: 15px 10px;
+    }
+
+    .illustration {
+        margin-left: 60px;
+    }
+
+    .inner-result label {
+        font-size: 14px;
+    }
+}
